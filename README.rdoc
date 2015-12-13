@@ -17,25 +17,25 @@ Please bear in mind three things:
 rails _X.X.XX_ new MyApp when setting up a new app with a different version of rails to 3.2.17.
 
 
-I put this project together after reading through many many blog posts about testing in rails and the beenfits of cucumber and rails.  In particular the books I worked through were:
+I put this project together after reading through many many blog posts about testing in rails and the benefits of cucumber and rails.  In particular the books I worked through were:
 
 * 'The Cucumber Book' by Matt Wynne and Aslak Hellesoy.
 * 'The Rspec Book' by David Chelimsky
 
-Now both of these I sure other would point out are years out of data certainly in terms of Rspec.  However what I really wanted to do was to learn how to code tests that:
+Now both of these, I'm sure, others would point out are years out of date certainly in terms of Rspec.  However what I really wanted to do was to learn how to code tests that:
 
 * I have confidence in, i.e. they work and you don't have to spend hours debugging tests!
 * I wanted to find a method of testing that did not require my tests to be longer than my actual code - this is an absurd situation.  
 
-  Sideshow-rant(SSR)
+Sideshow-rant(SSR)
 
-  After many years of working in testing and latterly as a test manager the fact that tests take so long to create and run (usually manually)  I wanted to find a way of creating the tests, writing the code and getting more done in the little  time I have to code after my day job.
+After many years of working in testing and latterly as a test manager the fact that tests take so long to create and run (usually manually)  I wanted to find a way of creating the tests, writing the code and getting more done in the little  time I have to code after my day job.
 
 *  I have read many times in blogs from repected coders and the books themselves - maintain your tests.  This makes sense if they are DRY but from the many examples in these books and other blogs I have felt that having to maintain tests just seems well a ridiculous situation.
 
-  Another SSR
+Another SSR
 
-  After writing your tests and build your feature - park them to the side and leave them alone as resgression tests.  When you have a new feature then add tests don't go refactoring tests that already worked!  Yes the surrounding capabara etc. will need to be updated.  But you want to see when you write an enhancements that are an upgrade to previous functionality is that you want the regression tests that are failing should fail.
+After writing your tests and build your feature - park them to the side and leave them alone as resgression tests.  When you have a new feature then add tests don't go refactoring tests that already worked!  Yes the surrounding capabara etc. will need to be updated.  But you want to see when you write an enhancements that are an upgrade to previous functionality is that you want the regression tests that are failing should fail.
 
 
 In any case I am going to build on this rails project to allow other types of tests as and when I get my head around how they work.  Considering I have invested so much time getting my head around the mechanics of testing in Rails I want to get the most out of it!
