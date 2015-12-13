@@ -9,7 +9,7 @@ To set up the example feature in cucumber.
 
 Then rake db:drop db:create db:migrate
 
-then rake cucumber to see a simple feature run.
+then rake cucumber to see a simple feature run.   
 
 Please bear in mind three things:
 
