@@ -1,12 +1,15 @@
 == Cucumber Rails (3.2.17) template
 
-Assuming you have ruby either fork or donwload the zip file.
+Assuming you have ruby either fork or download the zip file.
 
 bundle
 
-Then rake db:drop db:create db:migrate
 
 To set up the example feature in cucumber.
+
+Then rake db:drop db:create db:migrate
+
+then rake cucumber to see a simple feature run.
 
 Please bear in mind three things:
 
@@ -35,7 +38,7 @@ After many years of working in testing and latterly as a test manager the fact t
 
 Another SSR
 
-After writing your tests and build your feature - park them to the side and leave them alone as resgression tests.  When you have a new feature then add tests don't go refactoring tests that already worked!  Yes the surrounding capabara etc. will need to be updated.  But you want to see when you write an enhancements that are an upgrade to previous functionality is that you want the regression tests that are failing should fail.
+After writing your tests and building your feature - park them to the side and leave them alone as regression tests.  When you have a new feature then add tests don't go refactoring tests that already worked!  Yes the surrounding capabara etc. will need to be updated.  But you want to see when you write an enhancements that are an upgrade to previous functionality is that you want the regression tests should fail are failing.
 
 
 In any case I am going to build on this rails project to allow other types of tests as and when I get my head around how they work.  Considering I have invested so much time getting my head around the mechanics of testing in Rails I want to get the most out of it!
