@@ -31,7 +31,7 @@ Sideshow-rant(SSR)
 
 After many years of working in testing and latterly as a test manager the fact that tests take so long to create and run (usually manually)  I wanted to find a way of creating the tests, writing the code and getting more done in the little  time I have to code after my day job.
 
-*  I have read many times in blogs from repected coders and the books themselves - maintain your tests.  This makes sense if they are DRY but from the many examples in these books and other blogs I have felt that having to maintain tests just seems well a ridiculous situation.
+*  I have read many times in blogs from respected coders and the books themselves - maintain your tests.  This makes sense if they are DRY but from the many examples in these books and other blogs I have felt that having to maintain tests just seems, well a ridiculous situation.
 
 Another SSR
 
