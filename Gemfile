@@ -24,11 +24,12 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem "rspec-rails", ">= 2.8.1"
+  gem 'shoulda-matchers', '~> 2.7.0', require: false
 end
 
 group :test do
   gem "factory_girl_rails", ">= 1.6.0"
-  gem "cucumber-rails", ">= 1.2.1"
+  gem "cucumber-rails", ">= 1.2.1", :require => false
   gem "capybara", ">= 1.1.2"
   gem "database_cleaner"
   gem "launchy"

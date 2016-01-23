@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe TellerController do
+
 
   describe "GET 'withdraw'" do
     it "returns http success" do
@@ -9,4 +9,4 @@ describe TellerController do
     end
   end
 
-end
+
