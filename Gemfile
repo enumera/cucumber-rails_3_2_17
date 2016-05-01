@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.17'
+ruby '2.1.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -22,18 +23,28 @@ end
 
 gem 'jquery-rails'
 
+gem 'meta-tags'
 group :development, :test do
   gem "rspec-rails", ">= 2.8.1"
+
   gem 'shoulda-matchers', '~> 2.7.0', require: false
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'letter_opener'
+  gem 'pry-rails'
 end
 
 group :test do
-  gem "factory_girl_rails", ">= 1.6.0"
+  gem "factory_girl_rails", "~> 4.0", require: false
   gem "cucumber-rails", ">= 1.2.1", :require => false
   gem "capybara", ">= 1.1.2"
+  gem 'selenium-webdriver'
+  gem 'fake_braintree', '~> 0.8.0'
   gem "database_cleaner"
   gem "launchy"
 end
+
+gem 'friendly_id', '~> 4.0.10'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
